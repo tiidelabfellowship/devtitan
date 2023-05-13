@@ -1,0 +1,32 @@
+.money-div{
+    margin-top: 150px;
+}
+
+.money-div > h1{
+    margin-bottom: 20px;
+    margin-left: 100px;
+    /* font-weight: bold; */
+    font-size: 33px;
+}
+
+hr{
+    width: 90%;
+}
+ .money-pic{
+  width: 280px;
+ }
+
+ .blank-yellow{
+    height: 200px;
+ }
+
+ .bk-top-sect{
+    text-align: center;
+ }
+
+ .bk-top-sect > a {
+  text-decoration: underline;
+  color: #3C949A;
+  font-size: 30px;
+  font-weight: 500;
+ }
