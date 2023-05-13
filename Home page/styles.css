@@ -295,3 +295,29 @@ footer{
 .footer-div > div{
   margin-top: 200px;
 }
+
+.footer-logo{
+  color: #F4EAEA;
+}
+
+.footer-form{
+  margin-bottom: 40px;
+}
+.footer-form-h1{
+  margin-bottom: 20px;
+  
+}
+.footer-form-btn{
+  background: #FC2E20;
+  height: 55px;
+}
+
+form > input{
+  background-color: #FFFBFB;
+  height: 55px;
+}
+
+
+.footer-seperate-text{
+  margin-top: 20px;
+}
