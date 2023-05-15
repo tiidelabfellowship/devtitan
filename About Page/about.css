@@ -1,0 +1,300 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  scroll-behavior: smooth;
+  scroll-padding-top: 2rem;
+  font-family: "Poppins", sans-serif;
+}
+
+/* HEADER */
+.heading {
+  text-align: center;
+}
+
+.heading h2 {
+  font-size: 30px;
+}
+
+.heading span {
+  font-size: 0.941rem;
+  color: rgb(2, 166, 70);
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  height: 100px;
+  top: 0;
+  right: 0;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #fdb750;
+  padding: 13px 10%;
+  transition: 0.2s;
+  box-shadow: -3px -3px 7px #ffffff73, 2px 2px 5px rgba(94, 104, 121, 0.288);
+}
+
+.logo {
+  font-size: 1.61rem;
+  font-weight: 600;
+  color: #0f0c27;
+}
+
+.logo span {
+  font-size: 1.61rem;
+  font-weight: 600;
+  color: crimson;
+}
+
+.navbar {
+  display: flex;
+}
+
+.navbar a {
+  font-size: 1rem;
+  padding: 10px 20px;
+  color: #0f0c27;
+  font-weight: 500;
+}
+
+.navbar a:hover {
+  color: hsl(260, 100%, 51%);
+  background-color: crimson;
+  color: white;
+  border-radius: 10px;
+}
+
+.login-btn {
+  margin-right: -20px;
+  background-color: greenyellow;
+}
+
+button {
+  background-color: crimson;
+  padding: 10px;
+  width: auto;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-weight: 800;
+}
+
+section {
+  padding: 50px 10%;
+}
+
+/* BODY */
+.home {
+  /* position: relative; */
+  width: 100%;
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  background-color: #f4eaea;
+}
+
+.home-img {
+  width: 50%;
+  height: auto;
+  margin-top: 0;
+  background-size: cover;
+  margin-left: 120px;
+}
+
+.home-img > img {
+  border-radius: 10px;
+  width: 120%;
+}
+
+.home-text {
+  font-size: 36px;
+  width: 50%;
+  font-weight: 400;
+  line-height: 1.1;
+  margin-right: 40px;
+}
+
+.home-text > p > button {
+  margin-top: 20px;
+  background-color: crimson;
+  padding: 10px;
+  width: 280px;
+  height: 60px;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: 800;
+}
+
+/* STORY SECTION */
+.story-h4,
+.mission-h4,
+.vision-h4 {
+  margin-bottom: 10px;
+  font-size: 40px;
+  color: #fc2e20;
+  font-weight: 600;
+}
+.story-text {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr 1fr;
+  row-gap: 40px;
+  column-gap: 60px;
+}
+.long {
+  width: 80%;
+}
+
+/* MISSION SECTION */
+.mission-container {
+  display: grid;
+  grid-template-columns: 1.7fr 2fr;
+  column-gap: 140px;
+}
+
+.mission-img,
+.vision-img {
+  width: 100%;
+  height: auto;
+}
+
+.mission-text {
+  display: grid;
+  grid-template-rows: 0.9fr 1.5fr 1.5fr 1.5fr;
+  height: 90%;
+}
+
+/* Vision */
+.vision-container {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  column-gap: 80px;
+}
+
+.vision-text {
+  display: grid;
+  grid-template-rows: 0.9fr 1.5fr 1.5fr 1.5fr;
+  row-gap: 20px;
+  height: 90%;
+}
+
+.team,
+h3 {
+  text-align: center;
+  font-size: 40px;
+}
+.team-member-container {
+  width: 80%;
+}
+.team-img {
+  width: 100%;
+  height: 80%;
+}
+
+.meet-our-team {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  row-gap: 30px;
+  column-gap: 30px;
+}
+.team-member-name {
+  text-align: center;
+}
+
+hr {
+  width: 20%;
+  color: #0f0c27;
+  background-color: black;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  /* border: none; */
+}
+
+h6 {
+  font-size: 20px;
+}
+
+/* FAQ  */
+
+.faq-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 60px;
+  row-gap: 40px;
+}
+
+back-to-top:link {
+  padding-top: 100px;
+  display: block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.back-to-top {
+  display: block;
+  color: #0f0c27;
+  padding-top: 70px;
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+}
+.btp {
+  width: 9%;
+  margin-bottom: 0px;
+}
+
+footer {
+  background-color: #000000;
+  height: 500px;
+  color: #f4eaea;
+}
+
+.footer-div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+.footer-seperate {
+  width: 30%;
+}
+
+.footer-div > div {
+  margin-top: 200px;
+}
+
+.footer-logo {
+  color: #f4eaea;
+}
+
+.footer-form {
+  margin-bottom: 40px;
+}
+.footer-form-h1 {
+  margin-bottom: 20px;
+}
+.footer-form-btn {
+  background: #fc2e20;
+  height: 55px;
+}
+
+form > input {
+  background-color: #fffbfb;
+  height: 55px;
+}
+
+.footer-seperate-text {
+  margin-top: 20px;
+}
