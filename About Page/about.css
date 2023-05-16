@@ -1,0 +1,175 @@
+section {
+  padding: 50px 10%;
+}
+
+/* BODY */
+.home {
+  /* position: relative; */
+  width: 100%;
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  background-color: #f4eaea;
+}
+
+.home-img {
+  width: 50%;
+  height: auto;
+  margin-top: 0;
+  background-size: cover;
+  margin-left: 120px;
+}
+
+.home-img > img {
+  border-radius: 10px;
+  width: 120%;
+}
+
+.home-text {
+  font-size: 36px;
+  width: 50%;
+  font-weight: 400;
+  line-height: 1.1;
+  margin-right: 40px;
+}
+
+.home-text > p > button {
+  margin-top: 20px;
+  background-color: red;
+  padding: 10px;
+  width: 280px;
+  height: 60px;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: 800;
+}
+
+/* STORY SECTION */
+.story-h4,
+.mission-h4,
+.vision-h4 {
+  margin-bottom: 10px;
+  font-size: 40px;
+  color: #fc2e20;
+  font-weight: 600;
+}
+.story-text {
+  display: grid;
+  grid-template-rows: auto;
+  row-gap: 20px;
+  column-gap: 10px;
+  font-size: 20px;
+  line-height: 1.8;
+}
+.long {
+  width: 80%;
+}
+
+/* MISSION SECTION */
+.mission-container {
+  display: grid;
+  grid-template-columns: 1.7fr 2fr;
+  column-gap: 140px;
+}
+
+.mission-img,
+.vision-img {
+  width: 100%;
+  height: auto;
+}
+
+.mission-text {
+  display: grid;
+  width: 90%;
+  height: 65%;
+}
+.mission-p {
+  font-size: 23px;
+  text-align: left;
+}
+
+/* Vision */
+.vision-container {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  column-gap: 80px;
+}
+
+.vision-text {
+  display: grid;
+  width: 90%;
+  height: 65%;
+}
+.vision-p {
+  font-size: 23px;
+}
+
+.team,
+h3 {
+  text-align: center;
+  font-size: 40px;
+}
+.team-member-container {
+  width: 80%;
+}
+.team-img {
+  width: 100%;
+  height: 80%;
+  border-radius: 12px;
+}
+
+.meet-our-team {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  row-gap: 30px;
+  column-gap: 30px;
+}
+.team-member-name {
+  text-align: center;
+}
+
+hr {
+  width: 20%;
+  color: #0f0c27;
+  background-color: black;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  /* border: none; */
+}
+
+h6 {
+  font-size: 20px;
+}
+
+/* FAQ  */
+
+.faq-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 60px;
+  row-gap: 40px;
+}
+
+back-to-top:link {
+  padding-top: 100px;
+  display: block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.back-to-top {
+  display: block;
+  color: #0f0c27;
+  padding-top: 70px;
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+}
+.btp {
+  width: 9%;
+  margin-bottom: 0px;
+}

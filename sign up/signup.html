@@ -7,6 +7,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sign up</title>
+    <script>
+      function showNotification() {
+        alert("Reset link has been sent to your registered email address");
+      }
+    </script>
   </head>
   <body>
     <form>
@@ -55,8 +60,11 @@
           I accept the Terms of Use &amp; Privacy Policy
         </label>
       </div>
-      <button type="submit">Sign Up</button>
-      <p>Already have an account? <a href="../sign in/login.html">Login</a></p>
+      <button type="submit" onclick="showNotification()">Sign Up</button>
+      <p>
+        Already have an account?
+        <a href="/emma main/sign in/login.html">Login</a>
+      </p>
     </form>
   </body>
 </html>
