@@ -327,3 +327,32 @@ form > input{
 .footer-seperate-text{
   margin-top: 20px;
 }
+
+.footer-follow {
+  color: #FFFBFB;
+  /* background-color: #FC2E20; */
+  margin-top: 50px;
+}
+
+/* .footer-follow > a{
+  color: #F4EAEA;
+} */
+.footer-follow-div > a{
+   color: #F4EAEA;
+   font-size: 32px;
+}
+
+.footer-ul{
+  display: flex;
+}
+
+
+/* /////////////////////////// */
+/*  */
+
+
+
+/* ////////////////////////// */
+
+
+
