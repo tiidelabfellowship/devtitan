@@ -5,8 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>DevTITAN BookClub Website</title>
-    <link rel="icon" href="./img/ReadLab.png">
-    <link rel="stylesheet" href="./styles.css" />
+    <link rel="icon" href="./img/ReadLab.png" />
+    <link rel="stylesheet" href="../Home page/styles.css" />
+    <link rel="stylesheet" ref="./styles.css" />
     <link rel="stylesheet" href="about.css" />
   </head>
   <body>
@@ -17,14 +18,14 @@
       <!-- <div class="bx bx-menu" id="menu-icon"></div> -->
       <ul class="navbar">
         <li><a href="../Home page/index.html">HOME</a></li>
-        <li><a href="#about">ABOUT</a></li>
-        <li><a href="../Club/club.html" target="_blank">CLUBS</a></li>
-        <li><a href="../Contact Page/contact.html" target="_blank">CONTACT</a></li>
-        <li><a href="#blog">BLOG</a></li>
+        <li><a href="../About Page/about.html">ABOUT</a></li>
+        <li><a href="../Club/club.html">CLUBS</a></li>
+        <li><a href="../Contact Page/contact.html">CONTACT</a></li>
       </ul>
       <div>
-        <button>Login</button>
-        <button> Register</button>
+        <button class="nav-button">
+          <a href="../sign in/login.html" target="_blank">Sign In</a>
+        </button>
       </div>
     </header>
     <!-- Navbar Section Ends Here -->
@@ -33,19 +34,22 @@
     <section class="home" id="home">
       <div class="home-text">
         <h1>
-          STAY IN TOUCH 
-          <br>WE ARE 
-          <br>CHANGING THE
-          <br>WHOLE GAME
+          STAY IN TOUCH
+          <br />WE ARE <br />CHANGING THE <br />WHOLE GAME
         </h1>
         <br />
         <p>
-          <button>Get Started</button>
+          <button>
+            <a href="../sign up/signup.html" target="_blank">Get Started</a>
+          </button>
         </p>
       </div>
 
       <div class="home-img">
-        <img src="./img/pexels-cottonbro-studio-6139603 1.png" alt="Father and Daughter reading a book" />
+        <img
+          src="./img/pexels-cottonbro-studio-6139603 1.png"
+          alt="Father and Daughter reading a book"
+        />
         <p></p>
       </div>
     </section>
@@ -55,27 +59,47 @@
     <section>
       <h4 class="story-h4">OUR STORY</h4>
       <div class="story-text">
-      <p>
-        The story of ReadLab begins with a group of passionate software developers who shared a common goal after recognizing a need in the market. While responding to this gap, we stepped forward to build a solution that would help book lovers around the world connect, discover, and share their readings. 
-      </p>
-      <p>
-        As a team, we began by conducting extensive research on existing book club platforms and identifying the gaps in the market. We found that many platforms were either too complicated or lacked the social component that made ReadLab so outstanding.
-        Using this knowledge, the team thought of building a platform that was both user-friendly and had robust social features. We spent weeks designing and developing the platform, testing and refining every aspect to ensure that it met global standards.
+        <p>
+          The story of ReadLab begins with a group of passionate software
+          developers who shared a common goal after recognizing a need in the
+          market. While responding to this gap, we stepped forward to build a
+          solution that would help book lovers around the world connect,
+          discover, and share their readings.
         </p>
-      <p>
-        One of the key features is its community-centric approach which also offers a range of tools to help users stay organized and track their reading progress. With all the App features being functional and responsive, users can create their own virtual bookshelves, join book clubs, and participate in discussions with other members. The platform also offers personalized recommendations based on users' reading history and preferences.
-      </p>
-      <p>
-        As ReadLab continues to grow, the team remains committed to its core values of inclusivity, community, and user-centric design. We are constantly looking for ways to improve the platform and make it even more engaging for users.
-      </p>
-      <p>
-        In conclusion, the story of ReadLab is a testament to the power of problem solving, passion and innovation. Hopefully, ReadLab has the potential to become a leading global platform for book lovers.
-      </p>
-      <!-- <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non</p> -->
-    </div>
-  </section>
-  <!-- Story Sections ends here -->
-  <hr class="long">
+        <p>
+          As a team, we began by conducting extensive research on existing book
+          club platforms and identifying the gaps in the market. We found that
+          many platforms were either too complicated or lacked the social
+          component that made ReadLab so outstanding. Using this knowledge, the
+          team thought of building a platform that was both user-friendly and
+          had robust social features. We spent weeks designing and developing
+          the platform, testing and refining every aspect to ensure that it met
+          global standards.
+        </p>
+        <p>
+          One of the key features is its community-centric approach which also
+          offers a range of tools to help users stay organized and track their
+          reading progress. With all the App features being functional and
+          responsive, users can create their own virtual bookshelves, join book
+          clubs, and participate in discussions with other members. The platform
+          also offers personalized recommendations based on users' reading
+          history and preferences.
+        </p>
+        <p>
+          As ReadLab continues to grow, the team remains committed to its core
+          values of inclusivity, community, and user-centric design. We are
+          constantly looking for ways to improve the platform and make it even
+          more engaging for users.
+        </p>
+        <p>
+          In conclusion, the story of ReadLab is a testament to the power of
+          problem solving, passion and innovation. Hopefully, ReadLab has the
+          potential to become a leading global platform for book lovers.
+        </p>
+      </div>
+    </section>
+    <!-- Story Sections ends here -->
+    <hr class="long" />
 
     <!-- Mission -->
     <section>
@@ -87,91 +111,76 @@
             class="mission-img"
           />
         </div>
-          <div class="mission-text">
-            <h4 class="mission-h4">OUR MISSION</h4>
-              <p class="mission-p">
-                Our mission is to provide a comprehensive and user-friendly web app that celebrates perspectives, promotes love for reading and connect readers together. Coupled with a wide range of reading recommendations, that fosters lively discussions and interactions around books. 
-              </p>
-              <!-- <p>
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-              </p>
-              <p>
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-              </p> -->
-          </div>
+        <div class="mission-text">
+          <h4 class="mission-h4">OUR MISSION</h4>
+          <p class="mission-p">
+            Our mission is to provide a comprehensive and user-friendly web app
+            that celebrates perspectives, promotes love for reading and connect
+            readers together. Coupled with a wide range of reading
+            recommendations, that fosters lively discussions and interactions
+            around books.
+          </p>
         </div>
-        </section>
-        <!-- Mission Ends Here -->
+      </div>
+    </section>
+    <!-- Mission Ends Here -->
 
-        <!-- Vision -->
-        <section>
-          <div class="vision-container">
-          <div class="vision-text">
-            <h4 class="vision-h4">OUR VISION</h4>
-              <p class="vision-p">
-                To create a vibrant and engaging online community of readers from around the world, where book lovers can discover, share, and discuss their favorite books in a friendly and supportive environment.
-              </p>
-              <!-- <p>
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-              </p>
-              <p>
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-              </p> -->
-          </div>
-
-          <div class="vision-img-container">
-            <img
-              src="./img/pexels-oziel-gómez-2846814 1.png"
-              alt="book-breakfast"
-              class="vision-img"
-            />
-          </div>
+    <!-- Vision -->
+    <section>
+      <div class="vision-container">
+        <div class="vision-text">
+          <h4 class="vision-h4">OUR VISION</h4>
+          <p class="vision-p">
+            To create a vibrant and engaging online community of readers from
+            around the world, where book lovers can discover, share, and discuss
+            their favorite books in a friendly and supportive environment.
+          </p>
         </div>
-        </section>
-        <!-- Vision Section Ends Here -->
 
+        <div class="vision-img-container">
+          <img
+            src="./img/pexels-oziel-gómez-2846814 1.png"
+            alt="book-breakfast"
+            class="vision-img"
+          />
+        </div>
+      </div>
+    </section>
+    <!-- Vision Section Ends Here -->
 
     <!-- Meet Our Team -->
     <section>
       <h2 class="team">MEET OUR TEAM</h2>
-      <hr>
-       <div class="meet-our-team">
-        <div class="team-member-container">
-          <img 
-          src="./img/godswill (2).jpeg" 
-          alt="picture-of-Mr-Godswill" 
-          class="team-img"
-          />
-          <p class="team-member-name">Mr Godswill (Mentor)</p>
-        </div>
+      <hr />
+      <div class="meet-our-team">
         <div class="team-member-container">
           <img
-          src="./img/Abioye.jpeg" 
-          alt="picture-of-Abioye"
-          class="team-img"
-          />
-          <p class="team-member-name">Abioye Abdullateef</p>
-        </div>
-        <div class="team-member-container">
-          <img
-          src="./img/Ismail.jpeg" 
-            alt="picture-of-maryam"
-            class="team-img"
-          />
-          <p class="team-member-name">Ismail Ogundele</p>
-
-        </div>
-        <div class="team-member-container"> 
-          <img
-          src="./img/orobosa.jpeg" 
-            alt="picture-of-Ismail"
+            src="./img/1dcaecc3-c577-4a76-9a26-0f23127a3d65.jpeg"
+            alt="the-victory-machine-book-cover"
             class="team-img"
           />
           <p class="team-member-name">Orobosa Emmanuel</p>
         </div>
+
         <div class="team-member-container">
           <img
-          src="./img/Maryam.jpeg" 
+            src="./img/3034a5fe-b0c5-4d8a-88e1-a92b35b554e9.jpeg"
+            alt="best-finance-books-the-millionaire-fastlane"
+            class="team-img"
+          />
+          <p class="team-member-name">jigah Favour</p>
+        </div>
+        <div class="team-member-container">
+          <img
+            src="./img/4196d380-2bd6-4164-a2e5-74a38626283b.jpeg"
+            alt="thingFallApart"
+            class="team-img"
+          />
+          <p class="team-member-name">Abioye olajide</p>
+        </div>
+        <div class="team-member-container">
+          <img
+            src="./img/58148e47-ee63-43d9-a40c-86f89d096551.jpeg"
             alt="health"
             class="team-img"
           />
@@ -179,147 +188,197 @@
         </div>
         <div class="team-member-container">
           <img
-          src="./img/Azeezat.jpeg" 
+            src="./img/5f9ab083-d56e-428d-a684-ea94a68fff91.jpeg"
             alt="RedeemingLove-Cover-MTI-2110-scaled"
             class="team-img"
           />
-          <p class="team-member-name">Azeezat Rufai</p>
+          <p class="team-member-name">Emmanuel Udoh</p>
         </div>
         <div class="team-member-container">
-          <img 
-          src="./img/grace.jpeg"  
-          alt="the-victory-machine-book-cover" 
-          class="team-img"
+          <img
+            src="./img/9b10c071-be8e-428d-a5ed-42caf803161d.jpeg"
+            alt="the-victory-machine-book-cover"
+            class="team-img"
           />
-          <p class="team-member-name">Grace Adie</p>
+          <p class="team-member-name">Ismail Adeshola</p>
         </div>
         <div class="team-member-container">
-          <img 
-          src="./img/waliyat (2).jpeg"  
-          alt="the-victory-machine-book-cover"
-          class="team-img"
+          <img
+            src="./img/8aff90fb-6e06-40c6-958a-d77bade51ba5.jpeg"
+            alt="the-victory-machine-book-cover"
+            class="team-img"
+          />
+          <p class="team-member-name">Rufai Azeezat</p>
+        </div>
+
+        <div class="team-member-container">
+          <img
+            src="./img/b7db3486-bfe8-40a4-bc5e-a9c055ffe197.jpeg"
+            alt="RedeemingLove-Cover-MTI-2110-scaled"
+            class="team-img"
           />
           <p class="team-member-name">Waliyat Abdulrazaq</p>
         </div>
         <div class="team-member-container">
           <img
-          src="./img/Jaf.jpeg" 
-            alt="health"
+            src="./img/bb02511d-4cac-4060-9b7a-f754d30c6dc3.jpeg"
+            alt="the-victory-machine-book-cover"
             class="team-img"
           />
-          <p class="team-member-name">Jigah Favour</p>
+          <p class="team-member-name">Maryam abdulkarim</p>
         </div>
         <div class="team-member-container">
           <img
-          src="./img/Udoh (2).jpeg" 
-            alt="RedeemingLove-Cover-MTI-2110-scaled"
+            src="./img/ddc2d762-ec8c-4419-9cdd-8a04c7265c69.jpeg"
+            alt="the-victory-machine-book-cover"
             class="team-img"
           />
-          <p class="team-member-name">Udoh Emmanuel</p>
+          <p class="team-member-name">Ibrahim abdulhafeez</p>
         </div>
-        <div class="team-member-container">
-          <img 
-          src="./img/fizzy.jpeg"  
-          alt="the-victory-machine-book-cover" 
-          class="team-img"
-          />
-          <p class="team-member-name">Abdulhafeez Ibrahim</p>
-        </div>
-        <div class="team-member-container">
-          <img 
-          src="./img/Dev.jpeg"  
-          alt="the-victory-machine-book-cover"
-          class="team-img"
-          />
-          <p class="team-member-name">Team DevTITANS</p>
-        </div>
-
+      </div>
     </section>
+
     <!-- Meet our team section ends here -->
 
     <!-- FAQ -->
-    <section>
+    <section id="FAQ1">
       <h3>FREQUENTLY ASKED QUESTIONS</h3>
-      <hr>
+      <hr />
       <div class="faq-container">
         <div>
-        <h6>What is ReadLab, and how does it work?</h6>
-        <p>ReadLab is an online book club application that connects readers from around the world. Members can join and  access it's various features and resources.</p>
+          <h6>What is ReadLab, and how does it work?</h6>
+          <p>
+            ReadLab is an online book club application that connects readers
+            from around the world. Members can join and access it's various
+            features and resources.
+          </p>
+        </div>
+        <div>
+          <h6>How much does it cost to use ReadLab?</h6>
+          <p>
+            ReadLab offers a free basic membership with limited access to
+            features, and a premium membership that offers full access to all
+            features for a monthly or yearly fee.
+          </p>
+        </div>
+        <div>
+          <h6>How do I join a book club on ReadLab?</h6>
+          <p>
+            To join a book club on ReadLab, you need to create an account,
+            browse the available book clubs, and request to join a club that
+            interests you. Once your request is approved, you can begin
+            participating in discussions and reading the selected books.
+          </p>
+        </div>
+        <div>
+          <h6>How are books chosen for the book club?</h6>
+          <p>
+            Books for the book club are chosen by the club members or
+            administrators based on various themes, genres, or popular demand.
+            Members can also suggest books for future selections.
+          </p>
+        </div>
+        <div>
+          <h6>Can I participate in multiple book clubs on ReadLab?</h6>
+          <p>
+            Yes, you can join and participate in multiple book clubs on ReadLab
+            at the same time.
+          </p>
+        </div>
+        <div>
+          <h6>Are there any offline book club meetings or events?</h6>
+          <p>
+            ReadLab is an online book club application, so all book discussions
+            and events take place online.
+          </p>
+        </div>
+        <div>
+          <h6>How do online book discussions work?</h6>
+          <p>
+            Online book discussions take place in a forum or chat room on
+            ReadLab. Members can share their thoughts and opinions on the book,
+            respond to others' comments, and ask questions.
+          </p>
+        </div>
+        <div>
+          <h6>Can I suggest a topic for the book club to discuss?</h6>
+          <p>
+            Yes, you can suggest topics for discussion, and the book club
+            administrators or members can choose to include them in future book
+            selections.
+          </p>
+        </div>
+        <div>
+          <h6>
+            What happens if I miss a book discussion or can't finish the book on
+            time?
+          </h6>
+          <p>
+            ReadLab understands that members have busy schedules and may not be
+            able to participate in every discussion or finish every book on
+            time. You can catch up on the discussion thread or continue reading
+            the book at your own pace.
+          </p>
+        </div>
+        <div>
+          <h6>How do I Switch between communities on ReadLab?</h6>
+          <p>
+            You switch between reader's community on ReadLab by clicking on the
+            "Leave community" button in the book club settings. It's important
+            to communicate with the club administrator and members to avoid any
+            confusion.
+          </p>
+        </div>
       </div>
-      <div>
-        <h6>How much does it cost to use ReadLab?</h6>
-        <p>ReadLab offers a free basic membership with limited access to features, and a premium membership that offers full access to all features for a monthly or yearly fee.</p>
-      </div>
-      <div>
-        <h6>How do I join a book club on ReadLab?</h6>
-        <p>To join a book club on ReadLab, you need to create an account, browse the available book clubs, and request to join a club that interests you. Once your request is approved, you can begin participating in discussions and reading the selected books.</p>
-      </div>
-      <div>
-        <h6>How are books chosen for the book club?</h6>
-        <p>Books for the book club are chosen by the club members or administrators based on various themes, genres, or popular demand. Members can also suggest books for future selections.
-        </p>
-      </div>
-      <div>
-        <h6>Can I participate in multiple book clubs on ReadLab?</h6>
-        <p>Yes, you can join and participate in multiple book clubs on ReadLab at the same time.
-        </p>
-      </div>
-      <div>
-        <h6>Are there any offline book club meetings or events?</h6>
-        <p>ReadLab is an online book club application, so all book discussions and events take place online.</p>
-      </div>
-      <div>
-        <h6>How do online book discussions work?</h6>
-        <p>Online book discussions take place in a forum or chat room on ReadLab. Members can share their thoughts and opinions on the book, respond to others' comments, and ask questions.</p>
-      </div>
-      <div>
-        <h6>Can I suggest a topic for the book club to discuss?</h6>
-        <p>Yes, you can suggest topics for discussion, and the book club administrators or members can choose to include them in future book selections.</p>
-      </div>
-      <div>
-        <h6>What happens if I miss a book discussion or can't finish the book on time?</h6>
-        <p>ReadLab understands that members have busy schedules and may not be able to participate in every discussion or finish every book on time. You can catch up on the discussion thread or continue reading the book at your own pace.</p>
-      </div>
-      <div>
-        <h6>How do I Switch between communities on ReadLab?</h6>
-        <p>You switch between reader's community on ReadLab by clicking on the "Leave community" button in the book club settings. It's important to communicate with the club administrator and members to avoid any confusion.
-        </p>
-      </div>
-      </div>
-    </div>
-
-    <div class="back-to-top">
-    <a href="#" class="back-to-top">Back to top</a>
-  </div>
-    <hr class="btp">
     </section>
     <!-- FAQ Section Ends Here -->
 
     <!-- FOOTER -->
     <footer>
       <div class="footer-div">
-
         <div class="footer-seperate">
-           <a href="#" class="logo footer-logo">Read<span>Lab </span>.</a>
-           <h2 class="footer-seperate-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam repellat, modi quam unde ducimus assumenda, quos esse iure quibusdam vel aspernatur non magni exercitationem nemo perferendis architecto veritatis cumque soluta.</h2>
+          <a href="#" class="logo footer-logo">Read<span>Lab </span>.</a>
+          <p class="footer-seperate-text">
+            Contact Us: ReadLab Inc. 123 ikorodu Street, Babablu <br />
+            Email: <a href="mailto:info@Readlab.com">info@readlab.com</a> <br />
+            Phone: +1 123-456-7890 <br />
+            Follow Us: <a href="#">Facebook </a> | <a href="#">Twitter</a> |
+            <a href="#">Instagram</a>
+          </p>
         </div>
 
-        <div>
-            <h3>You can get in</h3>
-            <h2>You can get in</h2>
-            <h2>You can get in</h2>
-            <h2>You can get in</h2>
-            <h2>You can get in</h2>
-            <h2>You can get in</h2>
-            
+        <div class="footer-middle">
+          <br />
+          <p><a href="#">Coupons</a></p>
+          <p><a href="#">Discussions</a></p>
+          <p><a href="#">Careers</a></p>
+          <p><a href="#">About</a></p>
+          <p><a href="#">Faq</a></p>
+        </div>
+        <div class="footer-middle2">
+          <br />
+          <p><a href="#">Support</a></p>
+          <p><a href="#">Terms</a></p>
+          <p><a href="#">Security</a></p>
+          <p><a href="#">Readlab Assistant</a></p>
+          <p><a href="#">Post secondary books</a></p>
         </div>
         <div class="footer-form">
-           <h2 class="footer-form-h1">Get in touch</h2>
-        <form action="">
-          <input type="email" name="email" id="email" placeholder="Enter Your Email Address">
-          <button class="footer-form-btn">Get in Touch</button>
-        </form>
+          <h2 class="footer-form-h1">Subscribe to our Newsletter</h2>
+          <form>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Enter Your Email Address"
+              required
+            />
+            <button type="submit" class="footer-form-btn">subscribe</button>
+          </form>
         </div>
+      </div>
+      <div class="copyright">
+        <p>© 2023 DevTITANS Inc. All rights reserved.</p>
       </div>
     </footer>
   </body>
