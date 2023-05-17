@@ -89,7 +89,9 @@ section {
   font-size: 23px;
   text-align: left;
 }
-
+.mission-p {
+  font-size: 26px;
+}
 /* Vision */
 .vision-container {
   display: grid;
@@ -106,6 +108,9 @@ section {
   font-size: 23px;
 }
 
+.vision-p {
+  font-size: 26px;
+}
 .team,
 h3 {
   text-align: center;
@@ -143,6 +148,7 @@ hr {
 
 h6 {
   font-size: 20px;
+  font-weight: 600;
 }
 
 /* FAQ  */
