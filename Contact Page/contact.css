@@ -1,90 +1,202 @@
-.contact-us-sect{
-    background-color: #03192F;
-    color: white;
+.contact-us-sect {
+  background-color: #03192f;
+  color: white;
 }
 
-.contact-us-sect-div{
-    /* display: flex;
-    justify-content: center; */
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    color: white;
-    height: 200px;
-    margin-top: 100px;
+form {
+  background-color: transparent;
+  padding: 20px;
+  max-width: 500px;
+  margin: 0 auto;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
+  text-align: left;
 }
 
-.contact-us-sect-div > p{
-    margin-top: 20px;
+.contact-us-sect-div {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  color: white;
+  height: 200px;
+  margin-top: 100px;
+}
+input[type="text"],
+input[type="email"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 10px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  text-align: left;
 }
 
-main{
-     background: linear-gradient(180deg, #FDB750 0.63%, rgba(217, 217, 217, 0) 100%);
-     height: 1000px;
-      /* margin-top: 50px; */
+.contact-us-sect-div > p {
+  margin-top: 20px;
 }
 
-.contact-content{
-    margin-top: 100px;
+main {
+  background: linear-gradient(
+    180deg,
+    #fdb750 0.63%,
+    rgba(217, 217, 217, 0) 100%
+  );
+  height: 1000px;
 }
 
- /* img{
-    color: white;
-    background-color: aqua;
-} */
-
-.contacts{
-    display: flex;
-    justify-content: space-around;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    /* flex-wrap: wrap; */
-    max-width: 80%;
+.contact-content {
+  margin-top: 100px;
+  background-color: transparent;
 }
 
-
-.form > input{
-    border: 2px solid grey;
-    width: 400px;
-} 
-
-.form > textarea{
-    width: 400px;
+.contacts {
+  display: flex;
+  justify-content: space-around;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 80%;
 }
 
-a{
-    color: black;
-    font-size: 24px;
+.contact-info {
+  margin-top: 20px;
+  width: 100%;
+  text-align: left;
+}
+.info1 {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.info2 {
+  margin-bottom: 20px;
+}
+.info3 a {
+  text-decoration: none;
+  color: black;
+}
+.info3 a:hover {
+  cursor: pointer;
+  color: #fc2e20;
+  text-decoration: underline;
+}
+form > input {
+  border: 2px solid grey;
 }
 
-.left-side-text{
-    display: flex;
-    justify-content: space-between;
-    margin: 70px;
+form > textarea {
+  width: 455px;
+}
+button[type="submit"] {
+  background-color: red;
+  color: white;
+  font-size: 14px;
+  padding: 8px 20px;
+  border: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+button[type="submit"]:hover {
+  background-color: black;
+  color: white;
+}
+textarea {
+  width: 100%;
+}
+footer {
+  background-color: #000000;
+  color: #f4eaea;
+  width: 100%;
 }
 
-.form{
-    background-color: white;
-    box-shadow: 7px 7px 4px 2px rgba(0, 0, 0, 0.25);
-    width: 550px;
-    height: 800px;
+.footer-div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
 }
 
-.text-address{
-    /* margin: 90px; */
-    margin-top: 90px;
-    border: 2px solid red;
+.footer-seperate {
+  width: 35%;
+  text-align: left;
+}
+.footer-middle {
+  width: 10%;
+  padding-left: 12px;
+  text-align: left;
+}
+.footer-middle2 {
+  width: 25%;
+  padding-left: 12px;
+  text-align: left;
 }
 
-.text-address > h1{
-    display: block;
-    justify-content: left;
-    margin-left: 60px;
-    text-align: left;
+.footer-middle a {
+  text-decoration: none;
+  color: white;
+}
+.footer-middle2 a {
+  text-decoration: none;
+  color: white;
+}
+.footer-middle a:hover {
+  cursor: pointer;
+  color: #fc2e20;
+  text-decoration: underline;
+}
+.footer-middle2 a:hover {
+  cursor: pointer;
+  color: #fc2e20;
+  text-decoration: underline;
+}
+.footer-div > div {
+  margin-top: 90px;
+  margin-bottom: 30px;
 }
 
-/* form > h1{
-    margin-top: 100px;
-    background-color: red;
-} */
+.footer-logo {
+  color: #f4eaea;
+}
+
+.footer-form {
+  margin-bottom: 40px;
+  text-align: center;
+}
+.footer-form-h1 {
+  margin-bottom: 20px;
+  font-size: 18px;
+  text-align: left;
+}
+.footer-form-btn {
+  background: #fc2e20;
+  height: 35px;
+  width: 125px;
+  text-align: center;
+}
+
+form > input {
+  background-color: #fffbfb;
+  height: 35px;
+  width: 180px;
+  text-align: center;
+}
+
+.footer-seperate-text {
+  margin-top: 20px;
+}
+.footer-seperate-text a {
+  text-decoration: none;
+  color: #f4eaea;
+}
+.footer-seperate-text a:hover {
+  color: red;
+  cursor: pointer;
+}
+.copyright {
+  display: flex;
+  justify-content: center;
+  font-size: 12px;
+  color: red;
+  margin-top: 20px;
+}

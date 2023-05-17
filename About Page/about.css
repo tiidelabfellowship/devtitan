@@ -1,91 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  list-style: none;
-  text-decoration: none;
-  scroll-behavior: smooth;
-  scroll-padding-top: 2rem;
-  font-family: "Poppins", sans-serif;
-}
-
-/* HEADER */
-.heading {
-  text-align: center;
-}
-
-.heading h2 {
-  font-size: 30px;
-}
-
-.heading span {
-  font-size: 0.941rem;
-  color: rgb(2, 166, 70);
-}
-
-header {
-  position: fixed;
-  width: 100%;
-  height: 100px;
-  top: 0;
-  right: 0;
-  z-index: 1000;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  background: #fdb750;
-  padding: 13px 10%;
-  transition: 0.2s;
-  box-shadow: -3px -3px 7px #ffffff73, 2px 2px 5px rgba(94, 104, 121, 0.288);
-}
-
-.logo {
-  font-size: 1.61rem;
-  font-weight: 600;
-  color: #0f0c27;
-}
-
-.logo span {
-  font-size: 1.61rem;
-  font-weight: 600;
-  color: crimson;
-}
-
-.navbar {
-  display: flex;
-}
-
-.navbar a {
-  font-size: 1rem;
-  padding: 10px 20px;
-  color: #0f0c27;
-  font-weight: 500;
-}
-
-.navbar a:hover {
-  color: hsl(260, 100%, 51%);
-  background-color: crimson;
-  color: white;
-  border-radius: 10px;
-}
-
-.login-btn {
-  margin-right: -20px;
-  background-color: greenyellow;
-}
-
-button {
-  background-color: crimson;
-  padding: 10px;
-  width: auto;
-  color: white;
-  border: none;
-  border-radius: 10px;
-  font-weight: 800;
-}
-
 section {
   padding: 50px 10%;
 }
@@ -123,7 +35,7 @@ section {
 
 .home-text > p > button {
   margin-top: 20px;
-  background-color: crimson;
+  background-color: red;
   padding: 10px;
   width: 280px;
   height: 60px;
@@ -145,10 +57,11 @@ section {
 }
 .story-text {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: 1fr 1fr;
-  row-gap: 40px;
-  column-gap: 60px;
+  grid-template-rows: auto;
+  row-gap: 20px;
+  column-gap: 10px;
+  font-size: 20px;
+  line-height: 1.8;
 }
 .long {
   width: 80%;
@@ -169,8 +82,12 @@ section {
 
 .mission-text {
   display: grid;
-  grid-template-rows: 0.9fr 1.5fr 1.5fr 1.5fr;
-  height: 90%;
+  width: 90%;
+  height: 65%;
+}
+.mission-p {
+  font-size: 23px;
+  text-align: left;
 }
 
 /* Vision */
@@ -182,9 +99,11 @@ section {
 
 .vision-text {
   display: grid;
-  grid-template-rows: 0.9fr 1.5fr 1.5fr 1.5fr;
-  row-gap: 20px;
-  height: 90%;
+  width: 90%;
+  height: 65%;
+}
+.vision-p {
+  font-size: 23px;
 }
 
 .team,
@@ -198,11 +117,12 @@ h3 {
 .team-img {
   width: 100%;
   height: 80%;
+  border-radius: 12px;
 }
 
 .meet-our-team {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   row-gap: 30px;
   column-gap: 30px;
 }
@@ -252,49 +172,4 @@ back-to-top:link {
 .btp {
   width: 9%;
   margin-bottom: 0px;
-}
-
-footer {
-  background-color: #000000;
-  height: 500px;
-  color: #f4eaea;
-}
-
-.footer-div {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  width: 100%;
-}
-
-.footer-seperate {
-  width: 30%;
-}
-
-.footer-div > div {
-  margin-top: 200px;
-}
-
-.footer-logo {
-  color: #f4eaea;
-}
-
-.footer-form {
-  margin-bottom: 40px;
-}
-.footer-form-h1 {
-  margin-bottom: 20px;
-}
-.footer-form-btn {
-  background: #fc2e20;
-  height: 55px;
-}
-
-form > input {
-  background-color: #fffbfb;
-  height: 55px;
-}
-
-.footer-seperate-text {
-  margin-top: 20px;
 }
